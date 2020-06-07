@@ -1,11 +1,61 @@
-nav > a {
-    color: white;
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.pierwszy-element ~ li {
-    color: red;
+h1 {
+    margin: 0;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+nav > a:last-child {
+    margin-right: 0;
+}
+
+nav > a:hover {
+    background-color: white;
+    color: rgb(0, 162, 255);
 }
 
 header {
     background-color: rgb(0, 162, 255);
+    padding: 20px;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+main > section {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+table td, table th {
+    border: 1px solid aqua;
+}
+
+footer {
+    background-color: rgb(0, 162, 255);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
 }
