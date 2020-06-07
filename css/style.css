@@ -1,0 +1,11 @@
+nav > a {
+    color: white;
+}
+
+.pierwszy-element ~ li {
+    color: red;
+}
+
+header {
+    background-color: rgb(0, 162, 255);
+}
