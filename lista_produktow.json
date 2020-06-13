@@ -1,0 +1,5 @@
+[
+    {"id": 1, "name": "rower górski", "price": 999.0},
+    {"id": 2, "name": "rower górski2", "price": 888.0},
+    {"id": 3, "name": "rower miejski", "price": 777.0}
+]
