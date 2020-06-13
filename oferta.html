@@ -1,43 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <style>
-        @keyframes nazwa_animacji {
-            0% {height: 200px;}
-            20% {height: 300px;}
-            100% {height: 200px;}
-        }
-
-        div {
-            background-color: yellow;
-            width: 100px;
-            height: 200px;
-            margin-left: 300px;
-            transform: scale(2, 1);
-            transition: transform 2s;
-            transition-timing-function: linear;
-        }
-
-        div:hover {
-            transform: scale(1, 1);
-            animation-name: nazwa_animacji;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
-        }
-    </style>
-</head>
-<body>
-    <p>
-        <strong style="font-weight: normal; color: red;">Pogrubienie</strong> Tekst tekst jakis tekst <span style="color: red;">slowa w span</span> duzo wiecej. <a href="#">dasjdias ji jsia jdia jsijs aijdi ajds ajid sajid jasid jasi jdai </a> dsadasdsadas
-    </p>
-    <div>
-        to jest tekst
-    </div>
-
-    <script src="js/dodaj_liste.js"></script>
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Sklep rowerowy Szprycha!</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>Szprycha!</h1>
+            <h2>Sklep rowerowy</h2>
+            <nav>
+                <a href="/">Strona Główna</a>
+                <a href="/oferta.html">Oferta sklepu</a>
+            </nav>
+        </header>
+        <main>
+            <section class="col-12">
+                To będzie nasza lista produktów:
+                <div id="lista-produktow">
+                </div>
+            </section>
+            <div style="clear: both;"></div>
+        </main>
+        <footer>
+            <p>
+                Kontakt z bazą: 888888888
+            </p>
+        </footer>
+    </body>
 </html>
