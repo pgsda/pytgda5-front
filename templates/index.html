@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% block main %}
+
+<ul>
+{% for comment in comments_list %}
+    <li>{{ comment }}</li>
+{% endfor %}
+</ul>
+
+<section class="col-4">
+    <p id="pierwszy-paragraf" style="color: rgb(0, 54, 36);">
+        Witajcie na stronie. Nasze zalety:
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Morbi sit amet risus semper, tincidunt sem non, vehicula
+        augue. Vivamus blandit ipsum eu ante semper, sed
+        pellentesque sem rutrum. Morbi dignissim vel purus eu
+        facilisis. Sed dapibus felis elit, ut malesuada risu
+        accumsan id. Etiam at vestibulum quam, ultrices congue
+        felis. Quisque id volutpat enim. Phasellus sit amet
+        dolor quam.
+    </p>
+    <ol>
+        <li class="pierwszy-element">
+            Punkt1 sdadksoakd ok kodak okoa ksodka okdsoa
+            dkaso kodak od kaod kasod ksao kaod aos ko
+        </li>
+        <li>Punkt2</li>
+        <li>Punkt3</li>
+        <li>Punkt4</li>
+    </ol>
+    <table>
+        <thead>
+            <tr>
+                <th>Kolumna 1</th>
+                <th>Kolumna 2</th>
+                <th>Kolumna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>W1</th>
+                <td>@ 2</td>
+                <td rowspan="2">% 3<br>5555</td>
+            </tr>
+            <tr>
+                <th>fdasfdsgdf</th>
+                <td>sss</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Suma1</td>
+                <td colspan="2">Suma2</td>
+            </tr>
+        </tfoot>
+    </table>
+    doklsajdoasjkdoajdasiojdsai
+</section>
+<section class="col-4">
+    <img src="https://sdacademy.pl/vs-assets/uploads/2019/06/cropped-Logo_SDA_color-3-1.png"
+        alt="To bedzie tekst wyswietlany w razie problemow z zaladowaniem obrazu">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kolumna 1</th>
+                <th>Kolumna 2</th>
+                <th>Kolumna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>W1</th>
+                <td>@ 2</td>
+                <td rowspan="2">% 3<br>5555</td>
+            </tr>
+            <tr>
+                <th>fdasfdsgdf</th>
+                <td>sss</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Suma1</td>
+                <td colspan="2">Suma2</td>
+            </tr>
+        </tfoot>
+    </table>
+    dosaujdi9asjdiasjdiajdajdasi
+</section>
+<section class="col-4">
+    3 kolumny
+</section>
+{% endblock %}
